@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SkorActivity">
+
+    <Button
+        android:id="@+id/btn_poin1A"
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="26dp"
+        android:onClick="Tambah"
+        android:text="SATU POIN"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/btn_poin2A"
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="134dp"
+        android:layout_marginTop="25dp"
+        android:onClick="Tambah"
+        android:text="DUA POIN"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/btn_poin3A"
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="255dp"
+        android:layout_marginTop="25dp"
+        android:onClick="Tambah"
+        android:text="TIGA POIN"
+        tools:layout_editor_absoluteX="285dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/tv_Tim_A"
+        android:layout_width="169dp"
+        android:layout_height="43dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="89dp"
+        android:text="Poin Tim A"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <TextView
+        android:id="@+id/tv_Skor_Tim_A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-4dp"
+        android:layout_marginTop="126dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:paddingBottom="0dp"
+        android:text="0"
+        android:textColor="#000"
+        android:textSize="56sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <Button
+        android:id="@+id/btn_resetA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="89dp"
+        android:layout_marginTop="217dp"
+        android:onClick="Reset"
+        android:text="RESET PERHITUNGAN"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <Button
+        android:id="@+id/btn_resetB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="360dp"
+        android:onClick="Reset"
+        android:text="RESET PERHITUNGAN"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="410dp" />
+
+    <TextView
+        android:id="@+id/tv_Skor_Tim_B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="428dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:paddingBottom="0dp"
+        android:text="0"
+        android:textColor="#000"
+        android:textSize="56sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="475dp" />
+
+    <TextView
+        android:id="@+id/tv_Tim_B"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="522dp"
+        android:text="Poin Tim B"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="585dp" />
+
+    <Button
+        android:id="@+id/btn_poin1B"
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="586dp"
+        android:onClick="Tambah"
+        android:text="SATU POIN"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="647dp" />
+
+    <Button
+        android:id="@+id/btn_poin2B"
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="584dp"
+        android:onClick="Tambah"
+        android:text="DUA POIN "
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="647dp" />
+
+    <Button
+        android:id="@+id/btn_poin3B"
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="255dp"
+        android:layout_marginTop="582dp"
+        android:onClick="Tambah"
+        android:text="TIGA POIN"
+        tools:layout_editor_absoluteX="299dp"
+        tools:layout_editor_absoluteY="649dp" />
+
+</RelativeLayout>
